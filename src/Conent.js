@@ -46,12 +46,12 @@ class Conent extends React.Component{
                             Det.map(
                                 (item,index)=>{
                                     return(
-                                        <div className="sect">
-                                            <div className="sect-left">
+                                        <div >
+                                            {/*<div className="sect-left">*/}
                                                 <NavLink className="p" to="/data/list/a">
                                                     <List key={index} ite={Det[index].head}></List>
                                                 </NavLink>
-                                            </div>
+                                            {/*</div>*/}
                                             <div className="sect-right">
                                                 <Route path="/data/list/a" component={Data}></Route>
                                             </div>
