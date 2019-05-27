@@ -1,0 +1,8 @@
+.Lunbo{
+    width: 700px;
+}
+.swiper-slide{
+    width: 700px !important;
+    height: 300px;
+    background-color: yellow;
+}

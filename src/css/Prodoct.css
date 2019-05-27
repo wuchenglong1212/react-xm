@@ -1,0 +1,36 @@
+.prod{
+    width: 270px;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+
+}
+.prod>div:first-child{
+    display: flex;
+    align-items: center;
+    background-color: #4fc08d;
+    height: 34px;
+    padding-left: 16px;
+    color: #ffffff;
+}
+.prod h4{
+    padding: 23px 0 24px 15px;
+    font-weight: 800;
+}
+.prod li{
+    padding: 0 0 16px 20px;
+}
+
+.produl{
+    border-bottom: 2px solid #f0f2f5;
+}
+.prod1{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.prod1>div:last-child{
+    height: 478px;
+    padding-top: 36px;
+}
+.prod1 p{
+    padding: 0 0 16px 20px;
+}

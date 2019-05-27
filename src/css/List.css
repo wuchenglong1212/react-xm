@@ -1,0 +1,31 @@
+.List-box{
+    display: flex;
+    width: 343px;
+    height: 170px;
+    margin-top: 15px;
+    padding: 25px 0 0 22px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+}
+.List-box>div{
+    width: 100px;
+    height: 100px;
+    margin-right: 21px;
+    background-color: red;
+}
+.List-box h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+.List-box li{
+    margin-bottom: 27px;
+}
+.List-box button{
+    width: 96px;
+    height: 42px;
+    background-color: #4fc08d;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}

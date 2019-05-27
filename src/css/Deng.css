@@ -1,0 +1,47 @@
+.Deng-box{
+    display: none;
+    background:rgba(0,0,0,0.3);
+    /*opacity: 0.3;*/
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+}
+.Deng-box>div{
+    margin: 70px auto;
+    width: 855px;
+    height: 260px;
+    border-radius: 10px;
+    background-color: white;
+}
+.Deng-box>div>span{
+    float: right;
+    margin: 10px 20px 0 0;
+    cursor: pointer;
+
+}
+.Deng-box input{
+    border: 1px solid #b2b2b2;
+    width: 220px;
+    height: 30px;
+}
+.Deng-box ul>li:last-child>input{
+    margin-left: 15px;
+}
+.Deng-box>div>ul{
+    padding: 50px 0 0 33px;
+}
+.Deng-box>div>ul>li{
+    margin-bottom: 30px;
+}
+.Deng-box button{
+    width: 70px;
+    height: 30px;
+    margin-left: 131px;
+    background-color: #4fc08d;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
