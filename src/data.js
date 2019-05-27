@@ -1088,6 +1088,7 @@ class DD extends React.Component {
                             </Dropdown>
                         </div>
                     </div>
+
                     <div><span>产品版本：</span>
                         <ButtonGroup aria-label="Basic example" onClick={(e) => {
                             this.ckshop(e)
