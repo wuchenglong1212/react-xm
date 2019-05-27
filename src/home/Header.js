@@ -5,20 +5,29 @@ class Header extends  React.Component{
     constructor(props){
         super(props)
         this.state={
-            dengLu:true
+            dengLu:true,
+            che:true
         }
     }
     deng(){
-
+        if(this.props.zt){
+            console.log(1);
+            this.props.sonData(this.state.dengLu)
+        }else {
+            this.props.chex(this.state.che)
+        }
     }
     render() {
+        let de=this.props.zt?"登录":"注销";
+        let xs = this.props.zt?"inline-block":"none";
+        let style={display:xs}
         return(
             <header className="App-header">
                 <ul>
                     <li><img src={logo}alt="logo" /> </li>
                     <li>
-                        <span onClick={()=>{this.props.sonData(this.state.dengLu)}}>登入</span>
-                        <span>注册</span>
+                        <span onClick={()=>{this.deng()}}>{de}</span>
+                        <span style={style}>注册</span>
                         <span>关于</span>
                     </li>
                 </ul>

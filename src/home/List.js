@@ -9,15 +9,15 @@ class List extends React.Component{
         }
     }
     componentWillReceiveProps(nextProps, nextContext) {
-        console.log(nextProps);
-        console.log(nextContext);
+        // console.log(nextProps);
+        // console.log(nextContext);
         this.setState({
             iet:nextProps
         })
     }
     render() {
         let itm=this.props
-        console.log(itm)
+        // console.log(itm)
         return (
             <div className="List-box">
                 <div></div>

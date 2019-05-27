@@ -6,41 +6,62 @@ import Deng from './home/Deng.js'
 import Data from './data'
 import Conent from './Conent'
 import {HashRouter, Redirect, Route, Switch} from 'react-router-dom'
-
 import './mock.js'
 
-class App extends React.Component{
-    constructor(props){
+class App extends React.Component {
+    constructor(props) {
         super(props)
-        this.state={
-            pc:{},
-            p:{},
-            msg:{},
-            det:{},
-            xs:false
+        this.state = {
+            pc: {},
+            p: {},
+            msg: {},
+            det: {},
+            xs: false,
+            zt: true
         }
     }
-    sondata(e){
+
+    sondata(e) {
         console.log(e);
-        this.setState({xs:e})
+        this.setState({xs: e})
+    }
+
+    gbzt(e) {
+        // console.log(e);
+        this.setState({
+            zt: e
+        })
+    }
+
+    chexiao(e) {
+        this.setState({
+            zt: e
+        })
     }
 
     render() {
 
-        console.log(this);
+        // console.log(this);
         return (
             <div className="App">
                 <HashRouter>
-                    <Header sonData={(e)=>{this.sondata(e)}}/>
+                    <Header sonData={(e) => {
+                        this.sondata(e)
+                    }} chex={(e) => {
+                        this.chexiao(e)
+                    }} zt={this.state.zt}/>
 
                     <Switch>
                         <Route path='/index' component={Conent}></Route>
                         <Route path='/data' component={Data}></Route>
                         <Redirect to={'/index'}/>
-                        <Deng kongzhi={this.state.xs} sonData={(e) => {
-                            this.sondata(e)
-                        }}></Deng>
+
                     </Switch>
+                    <Deng kongzhi={this.state.xs} gaibzt={(e) => {
+                        this.gbzt(e)
+                    }} sonData={(e) => {
+                        this.sondata(e)
+                    }}></Deng>
                     <footer><span>@2016 fishenal MIT</span></footer>
 
                 </HashRouter>

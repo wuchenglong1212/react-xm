@@ -28,14 +28,14 @@ class Conent extends React.Component{
                         msg:data.data[2],
                         det:data.data[3],
                     })
-                    console.log(this);
+                    // console.log(this);
                 }
             )
     }
 
     render() {
         let Det=Object.values(this.state.det)
-        console.log(Det);
+        // console.log(Det);
         return (
             <div className="content">
                 <Prodoct pc={this.state.pc} p={this.state.p} msg={this.state.msg} />
@@ -46,13 +46,13 @@ class Conent extends React.Component{
                             Det.map(
                                 (item,index)=>{
                                     return(
-                                        <div >
+                                        <div key={index}>
                                             {/*<div className="sect-left">*/}
                                                 <NavLink className="p" to="/data/list/a">
-                                                    <List key={index} ite={Det[index].head}></List>
+                                                    <List  ite={Det[index].head}></List>
                                                 </NavLink>
                                             {/*</div>*/}
-                                            <div className="sect-right">
+                                            <div  key={index} className="sect-right">
                                                 <Route path="/data/list/a" component={Data}></Route>
                                             </div>
                                         </div>

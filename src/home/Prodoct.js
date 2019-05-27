@@ -10,7 +10,7 @@ class Prodoct extends React.Component {
         let Pc=Object.values(this.props.pc);
         let P=Object.values(this.props.p);
         let Msg=Object.values(this.props.msg);
-        console.log(Pc);
+        // console.log(Pc);
         return (
             <div>
                 <div className="prod">

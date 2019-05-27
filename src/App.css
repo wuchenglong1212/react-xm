@@ -1,6 +1,9 @@
 body{
   background-color: #f0f2f5;
 }
+ul{
+  list-style: none;
+}
 .App-header {
   background-color: #282c34;
   width: 100%;
