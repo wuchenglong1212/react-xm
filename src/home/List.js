@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/List.css'
+
 class List extends React.Component{
     constructor(props){
         super(props)
@@ -16,12 +17,12 @@ class List extends React.Component{
     }
     render() {
         let itm=this.props
-        console.log(itm);
-        return(
+        console.log(itm)
+        return (
             <div className="List-box">
                 <div></div>
                 <ul>
-                    <li><h4>主题测试</h4></li>
+                    <li><h4>主题测试1</h4></li>
                     <li>胡汉三又回来了</li>
                     <li><button>立即购买</button></li>
                 </ul>

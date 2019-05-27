@@ -1,0 +1,259 @@
+.Data {
+  text-align: center;
+}
+.sect>div {
+  display: inline-block;
+  vertical-align: top;
+}
+.sect {
+  background: #f0f2f5;
+  padding-bottom: 30px;
+  /*height: 1010px;*/
+}
+.sect-left {
+  width: 200px;
+  height: 300px;
+  background: white;
+  text-align: left;
+}
+.left-img {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  height: 75px;
+}
+.no {
+  width: 980px;
+  height: 20px;
+  background: #f0f2f5;
+}
+.p{
+  display: block;
+  margin: 0 0 0 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: black;
+}
+.sect-right {
+  background: white;
+  width: 980px;
+  margin-left: 20px;
+  text-align: left;
+}
+.foot>p {
+  line-height: 25px;
+}
+h1{
+  font-size: 22px!important;
+  font-weight: 400!important;
+  margin-left: 20px !important;
+  margin-top: 50px !important;
+  margin-bottom: 22px!important;
+}
+.sect-right>div>p{
+  color: #b1b2a6;
+  padding-left: 20px;
+  height: 60px;
+  background: #f7fcff;
+  padding-top: 10px;
+  line-height: 25px;
+}
+.sect-sect{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.sect-sect>div{
+  margin-top: 22px;
+  vertical-align: bottom;
+}
+.sect-num input{
+  width: 30px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #e3e3e3;
+  position: relative;
+  text-align: center;
+  top: 1px;
+}
+.sect-num button {
+  height: 27px;
+  line-height: 20px;
+}
+.sect-button {
+  margin-top: 22px;
+  width: 96px;
+  height: 35px;
+  line-height: 35px;
+  background: #5cb85c;
+  border: transparent;
+  border-radius: 8px;
+  color: white;
+}
+.sect-button:hover {background-color: #5cb85c}
+.sect-button:active {
+  background-color: #5cb85c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.sect-sect>span {
+  display: inline-block;
+  width: 120px;
+}
+h2 {
+  font-size: 22px !important;
+  margin: 20px 0 8px 20px !important;
+}
+.foot {
+  padding-bottom: 30px;
+}
+.foot p {
+  margin-left: 20px;
+  margin-top: 16px;
+  padding-right: 10px;
+}
+.btn-color {
+  background: #5cb85c;
+}
+.btn-group {
+  display: inline-block;
+}
+.sect-btn {
+  background: white;
+  display: block;
+  border: transparent;
+  color: black;
+  outline:none !important;
+
+}
+.sect-sect>div>span {
+  display: inline-block;
+  width: 100px !important;
+}
+.lin {
+  display: inline-block;
+}
+.dropdown-menu {
+  transform: translate3d(0px, 10px, 0px);
+  width: 50px !important;
+  text-align: center !important;
+  top: 20px !important;
+  display: none;
+}
+.show {
+  display: block;
+}
+.show a{
+  width: 157px;
+  border: 1px solid black;
+  margin-top: -1px;
+  height: 22px;
+  line-height: 22px;
+  position: relative;
+  top: -20px;
+}
+.sect-span {
+  display: inline-block;
+  width: 40px !important;
+  transform: rotate(90deg) !important;
+  transition: 0.5s;
+}
+.dropdown-toggle {
+  width: 160px;
+  height: 33px;
+}
+.dropdown-toggle:active {
+  border: transparent;
+  outline:none !important;
+}
+.cla {
+  margin-top: 17px !important;
+}
+.row{
+  margin-top: -1px;
+
+}
+.msg .row div{
+  border:1px solid #e0e0e0;
+  width: 110px;
+}
+.container {
+  margin: 30px auto;
+}
+.row>* {
+  display: inline-block;
+  border: 1px solid;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.bank >button {
+  background: transparent;
+  border: transparent;
+}
+.bank>button>img{
+  height: 100px;
+  width: 157px;
+}
+.float-bg {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  opacity: 0.5;
+  position: fixed;
+  filter: blur(20px);
+  top: 0;
+  z-index: 0;
+}
+.float {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  transition: 1s;
+  z-index: -1;
+  /*display: none;*/
+
+}
+.float-sect{
+  width: 855px;
+  height: 450px;
+  margin: 0 auto;
+  background: white;
+  text-align: left;
+  padding-left: 30px;
+  position: fixed;
+  margin-top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+.container {
+  width: 800px !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.end-shop{
+  color: white;
+  background: #5cb85c;
+  border: transparent;
+  border-radius: 5px;
+  width: 96px;
+  height: 45px;
+  line-height: 45px;
+  /*display: none;*/
+}
+.endX{
+  position: relative;
+  top: 130px;
+  z-index: 21;
+  left: 400px;
+  background: transparent;
+  border: transparent;
+}
+.end-p {
+  text-align: center;
+}
