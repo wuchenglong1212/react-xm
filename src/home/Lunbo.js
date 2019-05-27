@@ -4,9 +4,9 @@ import 'swiper/dist/css/swiper.min.css'
 import '../css/Lunbo.css'
 
 class Lunbo extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+    // constructor(props) {
+    //     super(props)
+    // }
     componentDidMount() {
 
         var mySwiper = new Swiper('.swiper-container', {

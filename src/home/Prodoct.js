@@ -2,9 +2,9 @@ import React from 'react';
 import '../css/Prodoct.css'
 
 class Prodoct extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+    // constructor(props) {
+    //     super(props)
+    // }
 
     render() {
         let Pc=Object.values(this.props.pc);
