@@ -5,6 +5,8 @@ import List from "./home/List";
 import Data from "./data";
 import React from "react";
 import axios from "axios";
+import "./css/List.css"
+import "./css/Prodoct.css"
 
 class Conent extends React.Component{
     constructor(props) {
