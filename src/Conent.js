@@ -41,14 +41,14 @@ class Conent extends React.Component{
         return (
             <div className="content">
                 <Prodoct pc={this.state.pc} p={this.state.p} msg={this.state.msg} />
-                <div>
+                <div className='right'>
                     <Lunbo/>
-                    <div className="list-b">
+                    <div className="asd">
                         {
                             Det.map(
                                 (item,index)=>{
                                     return(
-                                        <div key={index}>
+                                        <div key={index} className="msg">
                                             {/*<div className="sect-left">*/}
                                                 <NavLink className="p" to="/data/list/a">
                                                     <List  ite={Det[index].head}></List>

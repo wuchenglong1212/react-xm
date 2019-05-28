@@ -1,7 +1,6 @@
 .List-box{
     display: flex;
     width: 343px;
-    height: 170px;
     margin-top: 15px;
     padding: 25px 0 0 22px;
     background-color: white;
@@ -28,4 +27,14 @@
     border-radius: 10px;
     border-style: none;
     outline: none;
+}
+.asd {
+    width: 800px;
+}
+.msg {
+    display: inline-block;
+    width: 360px;
+}
+.p {
+    margin-left: 0px !important;
 }

@@ -5,6 +5,7 @@ import {Button, ButtonGroup, Col, Container, Dropdown, Row} from 'react-bootstra
 
 var Mock = require('mockjs')
 var data = []
+
 function Data() {
   return (
     <div className="Data">
@@ -13,11 +14,11 @@ function Data() {
             </div>
             <div className="sect">
                 <div className="sect-left">
-                    <img src={require('./img/1.png')} className="left-img" alt=""/>
-                    <NavLink className="p" to="/data/list/a">数据类型</NavLink>
-                    <NavLink className="p" to="/data/list/b">数据预测</NavLink>
-                    <NavLink className="p" to="/data/list/c">流量分析</NavLink>
-                    <NavLink className="p" to="/data/list/d">广告发布</NavLink>
+                    <img src={require('./img/1.png')}  className="left-img" alt=""/>
+                    <NavLink className="pp" to="/data/list/a">数据类型</NavLink>
+                    <NavLink className="pp" to="/data/list/b">数据预测</NavLink>
+                    <NavLink className="pp" to="/data/list/c">流量分析</NavLink>
+                    <NavLink className="pp" to="/data/list/d">广告发布</NavLink>
                 </div>
                 <div className="sect-right">
                     <Route path="/data/list/a" component={AA}></Route>
@@ -1056,7 +1057,7 @@ class DD extends React.Component {
         let and = parseInt(this.state.num)*(parseInt(this.state.typ)+parseInt(this.state.year)+parseInt(this.state.shop))
         return (
             <div>
-                <h1>流量分析</h1>
+                <h1>广告发布</h1>
                 <p>是指在获得网站访问量基本数据的情况下对数据进行统计、分析、从中发现用户访问网站的规律，并将这些规律与网络营销策略等相结合，从而发现
                     目前网络营销活动中可能存在的问题</p>
                 <div className="sect-sect">

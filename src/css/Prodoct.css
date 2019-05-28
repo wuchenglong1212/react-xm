@@ -13,7 +13,7 @@
     color: #ffffff;
 }
 .prod h4{
-    padding: 23px 0 24px 15px;
+    padding: 0px 0 0px 15px;
     font-weight: 800;
 }
 .prod li{
@@ -33,4 +33,7 @@
 }
 .prod1 p{
     padding: 0 0 16px 20px;
+}
+.right {
+    margin-left: 30px;
 }

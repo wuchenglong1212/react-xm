@@ -24,7 +24,7 @@ class Header extends  React.Component{
         return(
             <header className="App-header">
                 <ul>
-                    <li><img src={logo}alt="logo" /> </li>
+                    <li><a href="/index"><img src={logo}alt="logo" /> </a></li>
                     <li>
                         <span onClick={()=>{this.deng()}}>{de}</span>
                         <span style={style}>注册</span>
